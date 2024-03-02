@@ -1,0 +1,10 @@
+import re
+
+text = "Hello, this is a sample text with some numbers like 12345 and 67890."
+
+numbers = re.findall(r'\d+', text)
+print("Numbers found:", numbers)
+
+pattern = r'\b[A-Za-z]{4}\b'
+matches = re.findall(pattern, text)
+print("Matches found:", matches)
