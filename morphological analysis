@@ -1,8 +1,0 @@
-import nltk
-
-text = "The quick brown foxes jumped over the lazy dogs."
-
-tokens = nltk.word_tokenize(text)
-tagged = nltk.pos_tag(tokens)
-
-print(tagged)
